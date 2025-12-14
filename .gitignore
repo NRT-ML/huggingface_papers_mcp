@@ -1,0 +1,16 @@
+venv
+.venv
+
+# experiments
+notebooks/
+
+# VSCode
+*.code-workspace
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# create assets
+*.pptx
