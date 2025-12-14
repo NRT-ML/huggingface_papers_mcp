@@ -8,15 +8,17 @@
 1. このリポジトリをクローンします。
    ```bash
    git clone https://github.com/NRT-ML/huggingface_papers_mcp.git
-```
-1. uv仮想環境を構築 & ライブラリインストール。
+   ```
+
+2. uv仮想環境を構築 & ライブラリインストール。
    ```bash
    cd to huggingface_papers_mcp
    uv venv venv --python 3.11
    venv\Scripts\activate  
    uv install -r requirements.txt   
    ```
-2. GitHub Copilot用のMCP設定ファイルを作成／更新します。Windowsでは `C:\Users\[ユーザー名]\AppData\Roaming\Code\User\mcp.json`が既定です。
+
+3. GitHub Copilot用のMCP設定ファイルを作成／更新します。Windowsでは `C:\Users\[ユーザー名]\AppData\Roaming\Code\User\mcp.json`が既定です。
      ```json
      "servers": {
         "huggingface_papers_mcp": {
@@ -32,17 +34,18 @@
         }
     }
      ```
+
 4. MCPサーバーを起動します。
   <!-- ![](./assets/activate_mcp.jpg) -->
   <img src="./assets/activate_mcp.jpg" width="40%">
 
-1. Agentモードを選択し、工具ボタンからMCPサーバが認識されていることを確認します。
+5. Agentモードを選択し、工具ボタンからMCPサーバが認識されていることを確認します。
   ![](./assets/check_mcp_available.jpg)
 
-1. VS CodeでGitHub Copilot Chatを開き、実際に動作を試します。
+6. VS CodeでGitHub Copilot Chatを開き、実際に動作を試します。
   ![](./assets/chat.jpg)
 
-1. MCPサーバの停止,再起動はVSCodeの拡張機能タブから実施できます。
+7. MCPサーバの停止,再起動はVSCodeの拡張機能タブから実施できます。
   ![](./assets/mcp_in_ext.jpg)
 
 ## Acknowledgements
