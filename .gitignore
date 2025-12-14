@@ -12,5 +12,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# create assets
+# others
 *.pptx
+refs.md
+*.pdf

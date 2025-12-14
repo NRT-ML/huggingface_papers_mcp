@@ -33,15 +33,16 @@
     }
      ```
 4. MCPサーバーを起動します。
-  ![](./assets/activate_mcp.jpg)
+  <!-- ![](./assets/activate_mcp.jpg) -->
+  <img src="./assets/activate_mcp.jpg" width="40%">
 
-5. Agentモードを選択し、工具ボタンからMCPサーバが認識されていることを確認します。
+1. Agentモードを選択し、工具ボタンからMCPサーバが認識されていることを確認します。
   ![](./assets/check_mcp_available.jpg)
 
-6. VS CodeでGitHub Copilot Chatを開き、実際に動作を試します。
+1. VS CodeでGitHub Copilot Chatを開き、実際に動作を試します。
   ![](./assets/chat.jpg)
 
-7. MCPサーバの停止,再起動はVSCodeの拡張機能タブから実施できます。
+1. MCPサーバの停止,再起動はVSCodeの拡張機能タブから実施できます。
   ![](./assets/mcp_in_ext.jpg)
 
 ## Acknowledgements
