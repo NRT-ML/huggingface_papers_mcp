@@ -12,7 +12,7 @@
 1. uv仮想環境を構築 & ライブラリインストール。
    ```bash
    cd to huggingface_papers_mcp
-   uv venv path/to/your/venv
+   uv venv venv --python 3.11
    venv\Scripts\activate  
    uv install -r requirements.txt   
    ```
@@ -33,17 +33,18 @@
     }
      ```
 4. MCPサーバーを起動します。
-  [](./assets/activate_mcp.jpg)
+  ![](./assets/activate_mcp.jpg)
 
 5. Agentモードを選択し、工具ボタンからMCPサーバが認識されていることを確認します。
-  [](./assets/check_mcp_available.jpg)
+  ![](./assets/check_mcp_available.jpg)
 
 6. VS CodeでGitHub Copilot Chatを開き、実際に動作を試します。
-  [](./assets/chat.jpg)
+  ![](./assets/chat.jpg)
 
 7. MCPサーバの停止,再起動はVSCodeの拡張機能タブから実施できます。
-  [](./assets/mcp_in_ext.jpg)
+  ![](./assets/mcp_in_ext.jpg)
 
 ## Acknowledgements
 Json feedの作成にあたっては以下を参考にしました。
+
 https://github.com/capjamesg/hugging-face-papers-rss
